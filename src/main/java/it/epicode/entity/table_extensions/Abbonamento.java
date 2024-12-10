@@ -20,7 +20,7 @@ public class Abbonamento extends TipoBiglietto {
     public Tessera getTessera(){
         return tessera;
     }
-    public void setTessera(Tessera tessera){
+    public void setTessera(Tessera tessera) {
         this.tessera = tessera;
     }
 }
