@@ -1,4 +1,11 @@
 package it.epicode.entity.table_extensions;
 
-public class DistributoriAutomatici {
+import it.epicode.entity.single_tables.Biglietteria;
+import jakarta.persistence.Entity;
+import lombok.Data;
+
+@Data
+@Entity
+
+public class DistributoriAutomatici extends Biglietteria {
 }
